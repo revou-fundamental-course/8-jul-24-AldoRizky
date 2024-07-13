@@ -1,1 +1,58 @@
-/*ini css*/
+
+main{
+    display:flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.main-title{
+    text-align: center;
+}
+.main-content{
+    padding:10px;
+    border: 1px solid;
+    flex:1;
+    
+}
+form{
+    padding:10px;
+    background-color: #a7c3ed;
+    border-radius: 8px;
+}
+input[type=number]{
+    width: 100%;
+    padding:5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+button{
+    height: 20px;
+    border-radius: 8px;
+    background-color: mediumaquamarine;
+}
+.submit{
+    background-color: mediumaquamarine;
+}
+.reset{
+    background-color: rgb(222, 200, 89);
+}
+
+.submit:focus{
+    background-color: rgb(0, 255, 128);
+    border: 3px solid ;
+}
+.reset:focus{
+    background-color: rgb(255, 153, 0);
+    border: 3px solid;
+}
+.section-hasil{
+    background-color: #a7c3ed;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
